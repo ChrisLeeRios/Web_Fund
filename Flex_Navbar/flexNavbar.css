@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 400px;
+    width: 90%;
+    margin: 5%;
+    align-items: center;
+}
+
+.center-item {
+    height: 120px;
+    width: 120px;
+    color: bisque;
+    background-color: bisque;
+
+
+
+}
+
+ul {
+    width: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    color: white;
+}
+
+
+
+.background-text {
+    background-color: aqua;
+    color: white;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.dojo-icon {
+    display: flex;
+    height: 70px;
+    width: 100px;
+    padding: 15px;
+}

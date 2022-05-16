@@ -1,0 +1,54 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.box {
+    background-color: coral;
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+.parent {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* justfiy-content properties
+  flex-start
+  flex-end
+  center
+  space-around
+  space-between
+  space-evenly */
+
+.navnar {
+    height: 200px;
+    align-items: center;
+    /* width: 60%; */
+}
+
+/* align-items properties
+  flex-start
+  flex-end
+  center */
+
+.child {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+ul {
+    border: 1px solid lightblue;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    background-color: darkcyan;
+}

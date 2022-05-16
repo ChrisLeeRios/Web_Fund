@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+
+.profileBar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#signOut {
+    background-color: rgb(11, 172, 172);
+    padding: 4px 15px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.page {
+    display: flex;
+    padding: 20px 150px;
+    gap: 40px;
+}
+
+#leftPage {
+    flex: 3;
+}
+
+.userCard {
+    border: 2px solid gray;
+    background-color: rgb(249, 239, 225);
+}
+
+.picHeader {
+    background-color: rgb(11, 172, 172);
+    height: 120px;
+    margin-bottom: 70px;
+}
+
+#profilePic {
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.cardBody {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#profileName {
+    color: black;
+    font-size: 30px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cardIcon {
+    height: 20px;
+}
+
+#seatle {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.settings {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#editProfile {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.educationCard {
+    margin-top: 30px;
+    border: 2px solid gray;
+    background-color: rgb(226, 224, 224);
+}
+
+.edHeader {
+    background-color: rgb(75, 75, 75);
+    color: white;
+    padding-left: 30px;
+}
+
+.edBody {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+#edBod1 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#edBod2 {
+    margin-bottom: 15px;
+    font-weight: lighter;
+    color: rgb(95, 95, 95);
+}
+
+.rightPage {
+    flex: 2;
+}
+
+.conReq {
+    border: 2px solid darkgray;
+    background-color: rgb(226, 224, 224);
+}
+
+.rsHeader {
+    display: flex;
+    background-color: rgb(75, 75, 75);
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.rsh1 {
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    background-color: lightgray;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.rsh2 {
+    /* margin-left: 10px; */
+    font-size: 30px;
+    color: white;
+}
+
+#rshn1 {
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    background-color: lightgray;
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+#rshn2 {
+    color: black;
+    text-align: center;
+}
+
+.rsBody {
+    background-color: rgb(226, 224, 224);
+    padding: 10px;
+}
+
+.rsb1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.rsPerson {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.cbimg {
+    display: flex;
+    gap: 20px;
+}
+
+.rsPic {
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.conName {
+    font-size: 30px;
+}
+
+.conIcon {
+    height: 60px;
+}
+
+.yourCon {
+    margin-top: 20px;
+    border: 2px solid darkgray;
+    background-color: rgb(226, 224, 224);
+}
+
+.viewLink {
+    border-top: 2px solid darkgray;
+    background-color: rgb(226, 224, 224);
+    font-size: 20px;
+    padding: 10px;
+}

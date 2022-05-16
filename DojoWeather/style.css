@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    font-family: monospace;
+}
+
+/* THIS IS THE NAVBAR */
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    background-color: rgb(159, 197, 248);
+    color: white;
+}
+
+#navbar h1 {
+    margin-left: 150px;
+    font-size: 50px;
+}
+
+#navCities {
+    display: flex;
+    /* align-items: center; */
+    margin-right: 150px;
+    font-size: 20px;
+
+}
+
+#navCities h2 {
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+
+/* THIS IS THE MAIN */
+#main {
+    padding: 20px 150px;
+}
+
+#topMain {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black;
+    padding-bottom: 20px;
+}
+
+select {
+    cursor: pointer;
+}
+
+#topMainLeft {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+#topMainRight {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+#topMainRight select {
+    margin-left: 10px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#bottomMain {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* THIS IS ALL FORCAST */
+
+.forcast {
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.forcast>h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.forcast>img {
+    border-radius: 50%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.forcast>p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.forcast>div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.highTemp {
+    color: rgb(207, 42, 39);
+}
+
+.lowTemp {
+    color: rgb(43, 120, 228);
+}
+
+.highTemp::after,
+.lowTemp::after {
+    content: "\00b0";
+}
+
+/* THIS IS THE COOKIE */
+
+#cookie {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 3px solid black;
+    padding: 20px;
+    position: fixed;
+    bottom: 10px;
+
+    margin-right: 150px;
+    /* margin-bottom: 10px; */
+}
+
+#cookie>div>h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#cookie>div>p {
+    font-size: 20px;
+}
+
+#cookie button {
+    font-size: 20px;
+    width: 220px;
+    padding: 5px;
+    background-color: rgb(159, 197, 248);
+    box-shadow: 4px 4px 4px;
+    cursor: pointer;
+}

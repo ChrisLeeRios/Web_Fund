@@ -1,0 +1,29 @@
+* {
+    /* border: 1px solid lime; */
+}
+
+.parent {
+    display: flex;
+}
+
+.germanflag {
+    /* height: 1000px; */
+}
+
+.stripe1 {
+    background-color: black;
+    width: 292px;
+    height: 59px;
+}
+
+.stripe2 {
+    background-color: red;
+    width: 292px;
+    height: 59px;
+}
+
+.stripe3 {
+    background-color: yellow;
+    width: 292px;
+    height: 59px;
+}

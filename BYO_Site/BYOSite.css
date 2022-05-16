@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(247, 233, 204);
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    /* border: solid lightcoral; */
+    height: 100px;
+    align-items: center;
+    /* background-color: lightblue; */
+    color: orangered;
+
+    padding: 10px 0px;
+}
+
+.image-style {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid red; */
+    padding: 20px 0px;
+}
+
+p {
+    padding: 30px 10%;
+    /* border: solid red; */
+    flex-wrap: nowrap;
+
+
+
+
+}
+
+.main-header {
+    border-bottom: solid black 1px;
+}

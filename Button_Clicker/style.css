@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red; */
+    font-family: monospace;
+}
+
+.page {
+    margin: 0px 150px;
+    background-image: url("bruce_lee.jpeg");
+    background-size: 100;
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.tacenter {
+    text-align: center;
+}
+
+/* navigation bar stuff */
+.navbar {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #ffbf00;
+}
+
+#searchbar {
+    font-size: 20px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#login {
+    color: white;
+    background-color: black;
+    width: 8%;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 50%;
+}
+
+/* main page */
+.main {
+    display: flex;
+    gap: 30px;
+}
+
+
+/* THIS IS THE LEFT SIDE MAIN */
+.lsMain {
+    margin: 20px 0px;
+    flex: 5;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 23px;
+}
+
+.plural {
+    font-size: 15px;
+}
+
+.likes {
+    width: 100%;
+    font-size: 15px;
+    padding: 5px 0px;
+    background-color: rgb(255, 191, 0);
+    box-shadow: 5px 4px 5px;
+}
+
+.lsBox {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 20PX;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    background-color: white;
+    opacity: 80%;
+}
+
+.def {
+    font-size: 20px;
+}
+
+.nounPadding {
+    padding-right: 70px;
+}
+
+/* THIS IS THE RIGHT SIDE MAIN */
+.rsMain {
+    flex: 3;
+    margin: 20px 0px;
+}
+
+.rsBox {
+    padding: 20PX;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    text-align: center;
+    background-color: white;
+    opacity: 80%;
+}
+
+#addDef {
+    background-color: #002EFF;
+    width: 60%;
+    padding: 5px 0px;
+    font-size: 20px;
+    color: white;
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px 5px black;
+}
+
+.text {
+    padding-bottom: 10px;
+}
+
+.rsText {
+    font-size: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.yellow {
+    color: #ffbf00;
+}

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+}
+
+
+/* GENERAL */
+
+body {
+    border: 3px solid black;
+}
+
+.big-pad {
+    padding: 0px 150px;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.jc-around {
+    justify-content: space-around;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ta-center {
+    text-align: center;
+
+}
+
+.botpad {
+    padding-bottom: 10px;
+}
+
+.top-bord {
+    border-top: 2px solid black;
+}
+
+.m-left-pad {
+    padding-left: 80px;
+}
+
+.m-right-pad {
+    padding-right: 80px;
+}
+
+.royal {
+    background-color: rgb(43, 120, 228);
+    color: white;
+}
+
+/* THIS IS NAV */
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav h2 {
+    background-color: rgb(207, 42, 39);
+    padding: 10px 45PX;
+    font-size: 40px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    /* background: linear-gradient(135deg, transparent 20px, rgb(207, 42, 39));
+    border: 0; */
+}
+
+nav img {
+    height: 40px;
+    padding-left: 10px;
+}
+
+
+/* THIS IS THE HEADER */
+
+header h1 {
+    font-size: 40px;
+}
+
+/* THIS IS THE MAIN */
+
+.main-grey {
+    background-color: rgb(221, 221, 221);
+}
+
+.main-marg {
+    margin: 20px 0px;
+}
+
+.bc-white {
+    background-color: white;
+}
+
+.c-red {
+    color: rgb(207, 42, 39);
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.pad20 {
+    padding: 20px;
+}
+
+#l-main {
+    flex: 1;
+}
+
+#r-main {
+    flex: 3;
+}
+
+.gap30 {
+    gap: 30px;
+}
+
+button {
+    cursor: pointer;
+    box-shadow: 4px 4px 4px black;
+}
+
+p {
+    padding: 10px 0px;
+
+}
+
+#score1 {
+    cursor: pointer;
+    font-size: 60px;
+}
+
+#score2 {
+    cursor: pointer;
+    font-size: 60px;
+}
+
+.ninja-blue {
+    color: rgb(17, 155, 157);
+}
+
+.pirate-red {
+    color: rgb(210, 16, 52);
+}
+
+#sub {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(255, 229, 153);
+}
+
+.sign-up-in {
+    width: 45%;
+    font-size: 20px;
+}

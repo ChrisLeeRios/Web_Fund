@@ -1,0 +1,38 @@
+* {
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.search {
+    border: solid rgb(37, 211, 153);
+    border-radius: 50px 50px;
+    color: rgb(37, 211, 153);
+    background-color: rgb(241, 230, 230);
+    text-align: center;
+    width: 300px;
+    height: fit-content;
+    font-size: 50px;
+    padding: 5px, 20px;
+}
+
+.plus {
+    background-color: aqua;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    line-height: 53px;
+}
+
+.create {
+    font-size: 50px;
+    border: solid black;
+    text-align: center;
+    width: 500px;
+    color: aliceblue;
+    background-color: rgb(21, 81, 233);
+    font-weight: lighter;
+    box-shadow: 10px 10px black;
+}

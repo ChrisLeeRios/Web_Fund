@@ -1,0 +1,46 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+h1 {
+    color: orange;
+}
+
+p {
+    font-weight: bold;
+    font-size: 16pt;
+    color: red;
+    background-color: lightgreen;
+    /* font-weight: normal; */
+}
+
+div {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+
+/* A CSS Class is for applying the same CSS style 
+  to multiple different HTML */
+/* The synax for a CSS class is .className */
+.centerText {
+    text-align: center;
+}
+
+.inverse {
+    color: white;
+    background-color: black;
+}
+
+/* A CSS id is for applying CSS to 
+  ONE THING and ONE THING ONLY */
+/* The syntax is #idName */
+#header {
+    font-size: 32pt;
+    font-weight: bolder;
+    color: cyan;
+    background-color: yellow;
+    text-align: right;
+}

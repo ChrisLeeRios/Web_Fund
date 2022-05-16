@@ -1,0 +1,24 @@
+.row {
+    display: flex;
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+.col {
+    flex: 1;
+    border: 1px solid black;
+}
+
+
+.col-2 {
+    border: 1px solid black;
+    flex: 2;
+}
+
+
+.col-3 {
+    border: 1px solid black;
+    flex: 3;
+}

@@ -1,0 +1,32 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: left;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h3 {
+    text-align: right;
+    background-color: lightskyblue;
+    color: purple;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.cloud {
+    color: aqua;
+}

@@ -1,0 +1,50 @@
+* {
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.container {
+    background-color: lightgrey;
+    border: 5px solid black;
+
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(86, 85, 85);
+}
+
+
+img {
+    height: 200px;
+
+}
+
+.div1 {
+    background-color: skyblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid rgb(24, 106, 237);
+}
+
+.div2 {
+    background-color: pink;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid rgb(250, 148, 165);
+}
+
+
+.div3 {
+    background-color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid rgb(202, 190, 190);
+}

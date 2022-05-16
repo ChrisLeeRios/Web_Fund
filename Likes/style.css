@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    font-family: monospace;
+
+}
+
+/* PART 1 */
+/* #someUserBox {
+    border: 3px solid black;
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+}
+
+#likeRow{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+h1{
+font-size: 40px
+}
+
+#likes{
+font-size: 20px;
+}
+
+#likeBtn{
+background-color: rgb(255,217,102);
+box-shadow: 4px 4px 4px;
+font-size: 20px;
+padding: 5px;
+margin-right: 10px;
+}
+
+#textRow{
+font-size: 20px;
+} */
+
+/* PART 2 */
+
+#page {
+    margin: 0px 200px;
+}
+
+#navbar {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+.header {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#main {
+    display: flex;
+    gap: 30px;
+}
+
+#lsBody {
+    flex: 1;
+    text-align: center;
+
+}
+
+#profile {
+    text-align: center;
+    border: 3px solid black;
+    padding: 0px 10px;
+}
+
+.name {
+    font-size: 40px;
+    padding: 50px 0px;
+}
+
+img {
+    height: 100px;
+    padding: 50px 0px;
+}
+
+#aa {
+    font-size: 20px;
+    padding: 50px 0px;
+}
+
+#rsBody {
+    flex: 3;
+
+}
+
+.rsbox {
+    border: 3px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.rsboxtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.rsname {
+    font-size: 40px;
+}
+
+#likes1 {
+    font-size: 20px;
+}
+
+#likes2 {
+    font-size: 20px;
+}
+
+#likes3 {
+    font-size: 20px;
+}
+
+.likeBtn {
+    background-color: rgb(255, 217, 102);
+    box-shadow: 4px 4px 4px;
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.rsboxbottom {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
